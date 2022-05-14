@@ -1,8 +1,5 @@
 """
-使用Double DQN进行训练
-使用两个输入一样的DQN网络：DQN TARGET
-DQN用来选取价值最大的动作
-TARGET用来计算TD Target
+使用Target DQN进行训练
 """
 
 import numpy as np
